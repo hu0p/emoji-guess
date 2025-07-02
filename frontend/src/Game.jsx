@@ -133,7 +133,7 @@ const EMOJIS = [
 
 const MAX_TIME = 30 // seconds per emoji
 const MAX_SCORE_PER_EMOJI = 1000
-const NUM_EMOJIS = 5 // For demo, use 5. Change to 30 for full game.
+const NUM_EMOJIS = 20 // 20 emojis per round
 const LEADERBOARD_KEY = "emoji_guess_leaderboard"
 const LEADERBOARD_SIZE = 10
 
