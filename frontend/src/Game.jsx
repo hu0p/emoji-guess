@@ -413,16 +413,19 @@ export default function Game() {
           style={{ position: "relative", zIndex: 2, background: "transparent" }}
         />
         {/* Inline suggestion overlay */}
-        {suggestion && input && suggestion !== input.toLowerCase() && (
-          <span
-            className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 select-none pointer-events-none"
-            style={{ zIndex: 1 }}
-          >
-            {/* Show only the part after the input */}
-            <span style={{ opacity: 0 }}>{input}</span>
-            {suggestion.slice(input.length)}
-          </span>
-        )}
+        {suggestion &&
+          input &&
+          suggestion !== input.toLowerCase() &&
+          input.length >= 4 && (
+            <span
+              className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 select-none pointer-events-none"
+              style={{ zIndex: 1 }}
+            >
+              {/* Show only the part after the input */}
+              <span style={{ opacity: 0 }}>{input}</span>
+              {suggestion.slice(input.length)}
+            </span>
+          )}
         <span className="absolute right-3 top-1/2 -translate-y-1/2">
           {input.length > 0 &&
             (isCorrect ? (
