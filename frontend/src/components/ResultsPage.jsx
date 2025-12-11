@@ -48,17 +48,17 @@ export default function ResultsPage() {
 
 
   return (
-    <div className="w-full max-w-2xl bg-gradient-to-br from-white to-gray-50 rounded-2xl shadow-2xl p-6 py-10 flex flex-col items-center border border-gray-100">
-      <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">Results</h2>
+    <div className="w-full max-w-2xl bg-gradient-to-br from-white to-gray-50 rounded-2xl shadow-2xl p-4 sm:p-6 py-6 sm:py-10 flex flex-col items-center border border-gray-100">
+      <h2 className="text-3xl sm:text-4xl font-bold mb-4 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">Results</h2>
 
       {/* Score Display */}
-      <div className="mb-6 text-center">
-        <div className="text-5xl font-bold text-purple-600 mb-2">{score.toLocaleString()}</div>
-        <div className="text-lg text-gray-600">Total Score</div>
+      <div className="mb-4 sm:mb-6 text-center">
+        <div className="text-4xl sm:text-5xl font-bold text-purple-600 mb-2">{score.toLocaleString()}</div>
+        <div className="text-base sm:text-lg text-gray-600">Total Score</div>
       </div>
 
       {/* Stats Summary */}
-      <div className="flex justify-center gap-6 mb-6 text-sm">
+      <div className="flex justify-center gap-4 sm:gap-6 mb-4 sm:mb-6 text-sm">
         <div className="text-center" title="Guessed the exact emoji name correctly (100% points)">
           <div className="text-lg font-semibold text-emerald-600">{perfectCount}</div>
           <div className="text-gray-500">Perfect</div>
@@ -183,17 +183,17 @@ export default function ResultsPage() {
         )}
       </div>
 
-      <div className="flex gap-4 mt-6">
+      <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-4 sm:mt-6 w-full sm:w-auto">
         <button
           onClick={showLeaderboardView}
-          className="group relative px-8 py-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white text-lg rounded-full font-bold shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-200 cursor-pointer overflow-hidden"
+          className="group relative px-6 sm:px-8 py-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white text-base sm:text-lg rounded-full font-bold shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-200 cursor-pointer overflow-hidden"
         >
           <span className="relative z-10">Leaderboard</span>
           <div className="absolute inset-0 bg-gradient-to-r from-pink-600 via-purple-600 to-pink-600 bg-[length:400%_100%] rounded-full animate-gradient-sweep"></div>
         </button>
         <button
           onClick={startGame}
-          className="group relative px-8 py-3 bg-gradient-to-r from-gray-500 to-gray-600 text-white text-lg rounded-full font-bold shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-200 cursor-pointer overflow-hidden"
+          className="group relative px-6 sm:px-8 py-3 bg-gradient-to-r from-gray-500 to-gray-600 text-white text-base sm:text-lg rounded-full font-bold shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-200 cursor-pointer overflow-hidden"
         >
           <span className="relative z-10">Play Again</span>
           <div className="absolute inset-0 bg-gradient-to-r from-gray-600 via-gray-500 to-gray-600 bg-[length:400%_100%] rounded-full animate-gradient-sweep"></div>

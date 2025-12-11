@@ -99,10 +99,10 @@ export default function GamePlay() {
   }
 
   return (
-    <main className="w-full max-w-lg bg-gradient-to-br from-white to-gray-50 rounded-2xl shadow-2xl px-6 pt-10 pb-0 flex flex-col items-center border border-gray-100 relative">
+    <main className="w-full max-w-lg bg-gradient-to-br from-white to-gray-50 rounded-2xl shadow-2xl px-4 sm:px-6 pt-6 sm:pt-10 pb-0 flex flex-col items-center border border-gray-100 relative">
       <div
         key={emojiKey}
-        className="text-8xl mb-6 emoji-transition"
+        className="text-6xl sm:text-8xl mb-4 sm:mb-6 emoji-transition"
         role="img"
         aria-label={`Current emoji: ${currentEmoji.name || 'Loading'}`}
       >
@@ -181,11 +181,11 @@ export default function GamePlay() {
         </div>
       </div>
 
-      <div className="flex gap-3 mb-4 mt-4">
+      <div className="flex flex-col sm:flex-row gap-3 mb-4 mt-4 w-full">
         <button
           onClick={handleSkip}
           aria-label={`Pass this emoji${!isMobileDevice ? ` (${isMacPlatform ? 'Cmd' : 'Ctrl'}+K)` : ''}`}
-          className="group relative px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white text-lg rounded-full font-bold shadow-xl hover:shadow-2xl focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-offset-2 transform hover:scale-105 transition-all duration-200 flex items-center gap-2 cursor-pointer overflow-hidden"
+          className="group relative px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white text-base sm:text-lg rounded-full font-bold shadow-xl hover:shadow-2xl focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-offset-2 transform hover:scale-105 transition-all duration-200 flex items-center justify-center gap-2 cursor-pointer overflow-hidden"
           disabled={submitted}
         >
           <div className="absolute inset-0 bg-gradient-to-r from-pink-600 via-purple-600 to-pink-600 bg-[length:400%_100%] rounded-full animate-gradient-sweep"></div>
@@ -210,7 +210,7 @@ export default function GamePlay() {
         <button
           onClick={() => setShowRestartModal(true)}
           aria-label="Restart game (current score will be lost)"
-          className="group relative px-8 py-4 bg-gradient-to-r from-gray-500 to-gray-600 text-white text-lg rounded-full font-bold shadow-xl hover:shadow-2xl focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 transform hover:scale-105 transition-all duration-200 flex items-center gap-2 cursor-pointer overflow-hidden"
+          className="group relative px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-gray-500 to-gray-600 text-white text-base sm:text-lg rounded-full font-bold shadow-xl hover:shadow-2xl focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 transform hover:scale-105 transition-all duration-200 flex items-center justify-center gap-2 cursor-pointer overflow-hidden"
         >
           <div className="absolute inset-0 bg-gradient-to-r from-gray-600 via-gray-500 to-gray-600 bg-[length:400%_100%] rounded-full animate-gradient-sweep"></div>
           <span className="relative z-10 flex items-center gap-2">
