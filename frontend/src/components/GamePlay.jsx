@@ -181,7 +181,7 @@ export default function GamePlay() {
         </div>
       </div>
 
-      <div className="flex flex-col sm:flex-row gap-3 mb-4 mt-4 w-full">
+      <div className="flex flex-col sm:flex-row gap-3 mb-4 mt-4 w-full sm:w-auto sm:justify-center">
         <button
           onClick={handleSkip}
           aria-label={`Pass this emoji${!isMobileDevice ? ` (${isMacPlatform ? 'Cmd' : 'Ctrl'}+K)` : ''}`}
