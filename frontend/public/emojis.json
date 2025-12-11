@@ -1,0 +1,269 @@
+{
+  "emojis": [
+    {
+      "emoji": "😀",
+      "name": "grinning face",
+      "keywords": ["grin", "happy", "smile"]
+    },
+    {
+      "emoji": "😃",
+      "name": "grinning face with big eyes",
+      "keywords": ["grin", "big eyes", "happy"]
+    },
+    {
+      "emoji": "😄",
+      "name": "grinning face with smiling eyes",
+      "keywords": ["grin", "smile", "happy"]
+    },
+    {
+      "emoji": "😁",
+      "name": "beaming face with smiling eyes",
+      "keywords": ["beam", "smile", "happy"]
+    },
+    {
+      "emoji": "😂",
+      "name": "face with tears of joy",
+      "keywords": ["tears", "joy", "laugh", "lol"]
+    },
+    {
+      "emoji": "🤣",
+      "name": "rolling on the floor laughing",
+      "keywords": ["rolling", "floor", "laugh", "rofl"]
+    },
+    {
+      "emoji": "😊",
+      "name": "smiling face with smiling eyes",
+      "keywords": ["smile", "happy", "blush"]
+    },
+    {
+      "emoji": "😇",
+      "name": "smiling face with halo",
+      "keywords": ["halo", "angel", "innocent"]
+    },
+    {
+      "emoji": "🥰",
+      "name": "smiling face with hearts",
+      "keywords": ["hearts", "love", "adore"]
+    },
+    {
+      "emoji": "😍",
+      "name": "smiling face with heart-eyes",
+      "keywords": ["heart eyes", "love", "hearts"]
+    },
+    {
+      "emoji": "😉",
+      "name": "winking face",
+      "keywords": ["wink", "flirt"]
+    },
+    {
+      "emoji": "😜",
+      "name": "winking face with tongue",
+      "keywords": ["wink", "tongue", "playful"]
+    },
+    {
+      "emoji": "🤪",
+      "name": "zany face",
+      "keywords": ["zany", "crazy", "wild"]
+    },
+    {
+      "emoji": "🤩",
+      "name": "star-struck",
+      "keywords": ["star", "struck", "amazed"]
+    },
+    {
+      "emoji": "🥳",
+      "name": "partying face",
+      "keywords": ["party", "celebration", "birthday"]
+    },
+    {
+      "emoji": "🤔",
+      "name": "thinking face",
+      "keywords": ["think", "hmm", "ponder"]
+    },
+    {
+      "emoji": "😐",
+      "name": "neutral face",
+      "keywords": ["neutral", "meh", "straight"]
+    },
+    {
+      "emoji": "😏",
+      "name": "smirking face",
+      "keywords": ["smirk", "sly"]
+    },
+    {
+      "emoji": "🙄",
+      "name": "face with rolling eyes",
+      "keywords": ["rolling eyes", "eye roll"]
+    },
+    {
+      "emoji": "🤐",
+      "name": "zipper-mouth face",
+      "keywords": ["zipper", "mouth", "quiet", "secret"]
+    },
+    {
+      "emoji": "😢",
+      "name": "crying face",
+      "keywords": ["cry", "sad", "tear"]
+    },
+    {
+      "emoji": "😭",
+      "name": "loudly crying face",
+      "keywords": ["loud", "cry", "sob", "bawl"]
+    },
+    {
+      "emoji": "😔",
+      "name": "pensive face",
+      "keywords": ["pensive", "sad", "sorry"]
+    },
+    {
+      "emoji": "😞",
+      "name": "disappointed face",
+      "keywords": ["disappoint", "sad"]
+    },
+    {
+      "emoji": "🥺",
+      "name": "pleading face",
+      "keywords": ["plead", "puppy eyes", "beg"]
+    },
+    {
+      "emoji": "😠",
+      "name": "angry face",
+      "keywords": ["angry", "mad", "grr"]
+    },
+    {
+      "emoji": "😡",
+      "name": "pouting face",
+      "keywords": ["pout", "rage", "red", "mad"]
+    },
+    {
+      "emoji": "🤬",
+      "name": "face with symbols on mouth",
+      "keywords": ["symbols", "swear", "curse"]
+    },
+    {
+      "emoji": "😤",
+      "name": "face with steam from nose",
+      "keywords": ["steam", "nose", "triumph", "proud"]
+    },
+    {
+      "emoji": "😮",
+      "name": "face with open mouth",
+      "keywords": ["open mouth", "wow", "oh"]
+    },
+    {
+      "emoji": "😲",
+      "name": "astonished face",
+      "keywords": ["astonish", "shock", "wow"]
+    },
+    {
+      "emoji": "😱",
+      "name": "face screaming in fear",
+      "keywords": ["scream", "fear", "home alone"]
+    },
+    {
+      "emoji": "🤯",
+      "name": "exploding head",
+      "keywords": ["explode", "head", "mind blown"]
+    },
+    {
+      "emoji": "😷",
+      "name": "face with medical mask",
+      "keywords": ["mask", "medical", "sick", "covid"]
+    },
+    {
+      "emoji": "🤒",
+      "name": "face with thermometer",
+      "keywords": ["thermometer", "fever", "sick", "temperature"]
+    },
+    {
+      "emoji": "🤢",
+      "name": "nauseated face",
+      "keywords": ["nausea", "sick", "green"]
+    },
+    {
+      "emoji": "🤮",
+      "name": "face vomiting",
+      "keywords": ["vomit", "puke", "sick", "throw up"]
+    },
+    {
+      "emoji": "🥵",
+      "name": "hot face",
+      "keywords": ["hot", "sweat", "heat"]
+    },
+    {
+      "emoji": "🥶",
+      "name": "cold face",
+      "keywords": ["cold", "freeze", "frozen", "ice"]
+    },
+    {
+      "emoji": "😴",
+      "name": "sleeping face",
+      "keywords": ["sleep", "zzz", "tired"]
+    },
+    {
+      "emoji": "😪",
+      "name": "sleepy face",
+      "keywords": ["sleepy", "tired", "drowsy"]
+    },
+    {
+      "emoji": "🥱",
+      "name": "yawning face",
+      "keywords": ["yawn", "tired", "bored"]
+    },
+    {
+      "emoji": "😎",
+      "name": "smiling face with sunglasses",
+      "keywords": ["sunglasses", "cool", "shades"]
+    },
+    {
+      "emoji": "🤓",
+      "name": "nerd face",
+      "keywords": ["nerd", "geek", "glasses"]
+    },
+    {
+      "emoji": "🤠",
+      "name": "cowboy hat face",
+      "keywords": ["cowboy", "hat", "yeehaw", "western"]
+    },
+    {
+      "emoji": "👻",
+      "name": "ghost",
+      "keywords": ["ghost", "boo", "spooky", "halloween"]
+    },
+    {
+      "emoji": "💀",
+      "name": "skull",
+      "keywords": ["skull", "dead", "skeleton"]
+    },
+    {
+      "emoji": "🤡",
+      "name": "clown face",
+      "keywords": ["clown", "circus", "joker"]
+    },
+    {
+      "emoji": "🤖",
+      "name": "robot",
+      "keywords": ["robot", "bot", "ai"]
+    },
+    {
+      "emoji": "👽",
+      "name": "alien",
+      "keywords": ["alien", "ufo", "space"]
+    },
+    {
+      "emoji": "💩",
+      "name": "pile of poo",
+      "keywords": ["poo", "poop", "shit"]
+    },
+    {
+      "emoji": "😈",
+      "name": "smiling face with horns",
+      "keywords": ["horns", "devil", "evil", "demon"]
+    },
+    {
+      "emoji": "👿",
+      "name": "angry face with horns",
+      "keywords": ["horns", "angry", "devil", "demon"]
+    }
+  ]
+}
