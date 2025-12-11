@@ -3,267 +3,542 @@
     {
       "emoji": "😀",
       "name": "grinning face",
-      "keywords": ["grin", "happy", "smile"]
+      "keywords": [
+        "grin",
+        "happy",
+        "smile"
+      ],
+      "difficulty": 1
     },
     {
       "emoji": "😃",
       "name": "grinning face with big eyes",
-      "keywords": ["grin", "big eyes", "happy"]
+      "keywords": [
+        "grin",
+        "big eyes",
+        "happy"
+      ],
+      "difficulty": 1
     },
     {
       "emoji": "😄",
       "name": "grinning face with smiling eyes",
-      "keywords": ["grin", "smile", "happy"]
+      "keywords": [
+        "grin",
+        "smile",
+        "happy"
+      ],
+      "difficulty": 1
     },
     {
       "emoji": "😁",
       "name": "beaming face with smiling eyes",
-      "keywords": ["beam", "smile", "happy"]
+      "keywords": [
+        "beam",
+        "smile",
+        "happy"
+      ],
+      "difficulty": 1
     },
     {
       "emoji": "😂",
       "name": "face with tears of joy",
-      "keywords": ["tears", "joy", "laugh", "lol"]
+      "keywords": [
+        "tears",
+        "joy",
+        "laugh",
+        "lol"
+      ],
+      "difficulty": 1
     },
     {
       "emoji": "🤣",
       "name": "rolling on the floor laughing",
-      "keywords": ["rolling", "floor", "laugh", "rofl"]
+      "keywords": [
+        "rolling",
+        "floor",
+        "laugh",
+        "rofl"
+      ],
+      "difficulty": 3
     },
     {
       "emoji": "😊",
       "name": "smiling face with smiling eyes",
-      "keywords": ["smile", "happy", "blush"]
+      "keywords": [
+        "smile",
+        "happy",
+        "blush"
+      ],
+      "difficulty": 1
     },
     {
       "emoji": "😇",
       "name": "smiling face with halo",
-      "keywords": ["halo", "angel", "innocent"]
+      "keywords": [
+        "halo",
+        "angel",
+        "innocent"
+      ],
+      "difficulty": 1
     },
     {
       "emoji": "🥰",
       "name": "smiling face with hearts",
-      "keywords": ["hearts", "love", "adore"]
+      "keywords": [
+        "hearts",
+        "love",
+        "adore"
+      ],
+      "difficulty": 1
     },
     {
       "emoji": "😍",
       "name": "smiling face with heart-eyes",
-      "keywords": ["heart eyes", "love", "hearts"]
+      "keywords": [
+        "heart eyes",
+        "love",
+        "hearts"
+      ],
+      "difficulty": 1
     },
     {
       "emoji": "😉",
       "name": "winking face",
-      "keywords": ["wink", "flirt"]
+      "keywords": [
+        "wink",
+        "flirt"
+      ],
+      "difficulty": 2
     },
     {
       "emoji": "😜",
       "name": "winking face with tongue",
-      "keywords": ["wink", "tongue", "playful"]
+      "keywords": [
+        "wink",
+        "tongue",
+        "playful"
+      ],
+      "difficulty": 1
     },
     {
       "emoji": "🤪",
       "name": "zany face",
-      "keywords": ["zany", "crazy", "wild"]
+      "keywords": [
+        "zany",
+        "crazy",
+        "wild"
+      ],
+      "difficulty": 2
     },
     {
       "emoji": "🤩",
       "name": "star-struck",
-      "keywords": ["star", "struck", "amazed"]
+      "keywords": [
+        "star",
+        "struck",
+        "amazed"
+      ],
+      "difficulty": 1
     },
     {
       "emoji": "🥳",
       "name": "partying face",
-      "keywords": ["party", "celebration", "birthday"]
+      "keywords": [
+        "party",
+        "celebration",
+        "birthday"
+      ],
+      "difficulty": 1
     },
     {
       "emoji": "🤔",
       "name": "thinking face",
-      "keywords": ["think", "hmm", "ponder"]
+      "keywords": [
+        "think",
+        "hmm",
+        "ponder"
+      ],
+      "difficulty": 2
     },
     {
       "emoji": "😐",
       "name": "neutral face",
-      "keywords": ["neutral", "meh", "straight"]
+      "keywords": [
+        "neutral",
+        "meh",
+        "straight"
+      ],
+      "difficulty": 2
     },
     {
       "emoji": "😏",
       "name": "smirking face",
-      "keywords": ["smirk", "sly"]
+      "keywords": [
+        "smirk",
+        "sly"
+      ],
+      "difficulty": 2
     },
     {
       "emoji": "🙄",
       "name": "face with rolling eyes",
-      "keywords": ["rolling eyes", "eye roll"]
+      "keywords": [
+        "rolling eyes",
+        "eye roll"
+      ],
+      "difficulty": 1
     },
     {
       "emoji": "🤐",
       "name": "zipper-mouth face",
-      "keywords": ["zipper", "mouth", "quiet", "secret"]
+      "keywords": [
+        "zipper",
+        "mouth",
+        "quiet",
+        "secret"
+      ],
+      "difficulty": 2
     },
     {
       "emoji": "😢",
       "name": "crying face",
-      "keywords": ["cry", "sad", "tear"]
+      "keywords": [
+        "cry",
+        "sad",
+        "tear"
+      ],
+      "difficulty": 2
     },
     {
       "emoji": "😭",
       "name": "loudly crying face",
-      "keywords": ["loud", "cry", "sob", "bawl"]
+      "keywords": [
+        "loud",
+        "cry",
+        "sob",
+        "bawl"
+      ],
+      "difficulty": 2
     },
     {
       "emoji": "😔",
       "name": "pensive face",
-      "keywords": ["pensive", "sad", "sorry"]
+      "keywords": [
+        "pensive",
+        "sad",
+        "sorry"
+      ],
+      "difficulty": 2
     },
     {
       "emoji": "😞",
       "name": "disappointed face",
-      "keywords": ["disappoint", "sad"]
+      "keywords": [
+        "disappoint",
+        "sad"
+      ],
+      "difficulty": 2
     },
     {
       "emoji": "🥺",
       "name": "pleading face",
-      "keywords": ["plead", "puppy eyes", "beg"]
+      "keywords": [
+        "plead",
+        "puppy eyes",
+        "beg"
+      ],
+      "difficulty": 2
     },
     {
       "emoji": "😠",
       "name": "angry face",
-      "keywords": ["angry", "mad", "grr"]
+      "keywords": [
+        "angry",
+        "mad",
+        "grr"
+      ],
+      "difficulty": 2
     },
     {
       "emoji": "😡",
       "name": "pouting face",
-      "keywords": ["pout", "rage", "red", "mad"]
+      "keywords": [
+        "pout",
+        "rage",
+        "red",
+        "mad"
+      ],
+      "difficulty": 2
     },
     {
       "emoji": "🤬",
       "name": "face with symbols on mouth",
-      "keywords": ["symbols", "swear", "curse"]
+      "keywords": [
+        "symbols",
+        "swear",
+        "curse"
+      ],
+      "difficulty": 1
     },
     {
       "emoji": "😤",
       "name": "face with steam from nose",
-      "keywords": ["steam", "nose", "triumph", "proud"]
+      "keywords": [
+        "steam",
+        "nose",
+        "triumph",
+        "proud"
+      ],
+      "difficulty": 1
     },
     {
       "emoji": "😮",
       "name": "face with open mouth",
-      "keywords": ["open mouth", "wow", "oh"]
+      "keywords": [
+        "open mouth",
+        "wow",
+        "oh"
+      ],
+      "difficulty": 1
     },
     {
       "emoji": "😲",
       "name": "astonished face",
-      "keywords": ["astonish", "shock", "wow"]
+      "keywords": [
+        "astonish",
+        "shock",
+        "wow"
+      ],
+      "difficulty": 2
     },
     {
       "emoji": "😱",
       "name": "face screaming in fear",
-      "keywords": ["scream", "fear", "home alone"]
+      "keywords": [
+        "scream",
+        "fear",
+        "home alone"
+      ],
+      "difficulty": 2
     },
     {
       "emoji": "🤯",
       "name": "exploding head",
-      "keywords": ["explode", "head", "mind blown"]
+      "keywords": [
+        "explode",
+        "head",
+        "mind blown"
+      ],
+      "difficulty": 2
     },
     {
       "emoji": "😷",
       "name": "face with medical mask",
-      "keywords": ["mask", "medical", "sick", "covid"]
+      "keywords": [
+        "mask",
+        "medical",
+        "sick",
+        "covid"
+      ],
+      "difficulty": 1
     },
     {
       "emoji": "🤒",
       "name": "face with thermometer",
-      "keywords": ["thermometer", "fever", "sick", "temperature"]
+      "keywords": [
+        "thermometer",
+        "fever",
+        "sick",
+        "temperature"
+      ],
+      "difficulty": 1
     },
     {
       "emoji": "🤢",
       "name": "nauseated face",
-      "keywords": ["nausea", "sick", "green"]
+      "keywords": [
+        "nausea",
+        "sick",
+        "green"
+      ],
+      "difficulty": 2
     },
     {
       "emoji": "🤮",
       "name": "face vomiting",
-      "keywords": ["vomit", "puke", "sick", "throw up"]
+      "keywords": [
+        "vomit",
+        "puke",
+        "sick",
+        "throw up"
+      ],
+      "difficulty": 2
     },
     {
       "emoji": "🥵",
       "name": "hot face",
-      "keywords": ["hot", "sweat", "heat"]
+      "keywords": [
+        "hot",
+        "sweat",
+        "heat"
+      ],
+      "difficulty": 2
     },
     {
       "emoji": "🥶",
       "name": "cold face",
-      "keywords": ["cold", "freeze", "frozen", "ice"]
+      "keywords": [
+        "cold",
+        "freeze",
+        "frozen",
+        "ice"
+      ],
+      "difficulty": 2
     },
     {
       "emoji": "😴",
       "name": "sleeping face",
-      "keywords": ["sleep", "zzz", "tired"]
+      "keywords": [
+        "sleep",
+        "zzz",
+        "tired"
+      ],
+      "difficulty": 2
     },
     {
       "emoji": "😪",
       "name": "sleepy face",
-      "keywords": ["sleepy", "tired", "drowsy"]
+      "keywords": [
+        "sleepy",
+        "tired",
+        "drowsy"
+      ],
+      "difficulty": 2
     },
     {
       "emoji": "🥱",
       "name": "yawning face",
-      "keywords": ["yawn", "tired", "bored"]
+      "keywords": [
+        "yawn",
+        "tired",
+        "bored"
+      ],
+      "difficulty": 2
     },
     {
       "emoji": "😎",
       "name": "smiling face with sunglasses",
-      "keywords": ["sunglasses", "cool", "shades"]
+      "keywords": [
+        "sunglasses",
+        "cool",
+        "shades"
+      ],
+      "difficulty": 1
     },
     {
       "emoji": "🤓",
       "name": "nerd face",
-      "keywords": ["nerd", "geek", "glasses"]
+      "keywords": [
+        "nerd",
+        "geek",
+        "glasses"
+      ],
+      "difficulty": 2
     },
     {
       "emoji": "🤠",
       "name": "cowboy hat face",
-      "keywords": ["cowboy", "hat", "yeehaw", "western"]
+      "keywords": [
+        "cowboy",
+        "hat",
+        "yeehaw",
+        "western"
+      ],
+      "difficulty": 2
     },
     {
       "emoji": "👻",
       "name": "ghost",
-      "keywords": ["ghost", "boo", "spooky", "halloween"]
+      "keywords": [
+        "ghost",
+        "boo",
+        "spooky",
+        "halloween"
+      ],
+      "difficulty": 2
     },
     {
       "emoji": "💀",
       "name": "skull",
-      "keywords": ["skull", "dead", "skeleton"]
+      "keywords": [
+        "skull",
+        "dead",
+        "skeleton"
+      ],
+      "difficulty": 2
     },
     {
       "emoji": "🤡",
       "name": "clown face",
-      "keywords": ["clown", "circus", "joker"]
+      "keywords": [
+        "clown",
+        "circus",
+        "joker"
+      ],
+      "difficulty": 2
     },
     {
       "emoji": "🤖",
       "name": "robot",
-      "keywords": ["robot", "bot", "ai"]
+      "keywords": [
+        "robot",
+        "bot",
+        "ai"
+      ],
+      "difficulty": 2
     },
     {
       "emoji": "👽",
       "name": "alien",
-      "keywords": ["alien", "ufo", "space"]
+      "keywords": [
+        "alien",
+        "ufo",
+        "space"
+      ],
+      "difficulty": 2
     },
     {
       "emoji": "💩",
       "name": "pile of poo",
-      "keywords": ["poo", "poop", "shit"]
+      "keywords": [
+        "poo",
+        "poop",
+        "shit"
+      ],
+      "difficulty": 2
     },
     {
       "emoji": "😈",
       "name": "smiling face with horns",
-      "keywords": ["horns", "devil", "evil", "demon"]
+      "keywords": [
+        "horns",
+        "devil",
+        "evil",
+        "demon"
+      ],
+      "difficulty": 1
     },
     {
       "emoji": "👿",
       "name": "angry face with horns",
-      "keywords": ["horns", "angry", "devil", "demon"]
+      "keywords": [
+        "horns",
+        "angry",
+        "devil",
+        "demon"
+      ],
+      "difficulty": 1
     }
   ]
 }

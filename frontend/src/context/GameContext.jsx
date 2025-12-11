@@ -143,7 +143,38 @@ export function GameProvider({ children }) {
 
     setSubmitted(true)
 
-    const pointsEarned = isCorrect ? Math.floor((timer / MAX_TIME) * MAX_SCORE_PER_EMOJI) : 0
+    // Calculate base points based on time
+    let pointsEarned = 0
+    if (isCorrect) {
+      const basePoints = Math.floor((timer / MAX_TIME) * MAX_SCORE_PER_EMOJI)
+      const currentEmoji = emojis[current]
+
+      // Apply exact vs partial multiplier
+      let points = isExact ? basePoints : Math.floor(basePoints * 0.7)
+
+      // Apply difficulty multiplier
+      const difficulty = currentEmoji.difficulty || 2 // Default to medium if not set
+      const difficultyMultipliers = {
+        1: 1.0,  // Easy - normal points
+        2: 1.5,  // Medium - 50% bonus
+        3: 2.0   // Hard - 100% bonus (double points)
+      }
+      points = Math.floor(points * difficultyMultipliers[difficulty])
+
+      // Apply hint penalty (hints show at 15s, 10s, and 5s)
+      if (timer <= 5) {
+        // All three hints shown - 30% penalty
+        points = Math.floor(points * 0.7)
+      } else if (timer <= 10) {
+        // Two hints shown - 20% penalty
+        points = Math.floor(points * 0.8)
+      } else if (timer <= 15) {
+        // One hint shown - 10% penalty
+        points = Math.floor(points * 0.9)
+      }
+
+      pointsEarned = points
+    }
     const newResult = {
       emoji: emojis[current],
       correct: isCorrect,
