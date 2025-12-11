@@ -88,6 +88,15 @@ export default function GamePlay() {
       }, 1000)
 
       handleSubmit(input.trim())
+
+      // Refocus input to keep mobile keyboard open
+      if (inputRef.current) {
+        inputRef.current.focus()
+        // Use VirtualKeyboard API for Android devices if available
+        if ('virtualKeyboard' in navigator) {
+          navigator.virtualKeyboard.show()
+        }
+      }
     }
     // If incorrect, do nothing - let the user keep typing
   }
